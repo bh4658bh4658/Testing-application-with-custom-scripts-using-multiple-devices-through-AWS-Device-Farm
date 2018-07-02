@@ -38,7 +38,9 @@ AWS Device Farm provides comprehensive test reporting that includes all of the s
 
 ![3.png](/images/3.png)
 
-1.8. In the Configure a test, Select **Instrumentation**. In this tutorial, we use Espresso and Spoon to do this automate test.
+1.8. In the Configure a test, Select **Instrumentation**. 
+
+> In this tutorial, we use Espresso and Spoon to do this automate test.
 
 1.9. Upload **app-debug-androidTest.apk**.
 
@@ -77,13 +79,13 @@ AWS Device Farm provides comprehensive test reporting that includes all of the s
 
 ![7.png](/images/7.png)
 
-1.19. click any phone to see detail, for this tutorial we choose **LG Nexus5**.
+1.19. Click any phone to see detail, for this tutorial we choose **LG Nexus5**.
 
-1.20. In the LG Nexus5 page, you can see many reports.First is Video, you can see your application progress.
+1.20. In the LG Nexus5 page, you can see many reports. First is Video, you can see your application progress.
 
 ![8.png](/images/8.png)
 
-1.21. Next is Log. You can see every seconds detail,and use the fillter to find the second you want see.
+1.21. Next is Log. You can see every seconds detail, and use the fillter to find the second you want see.
 
 ![9.png](/images/9.png)
 
@@ -104,7 +106,7 @@ AWS Device Farm provides comprehensive test reporting that includes all of the s
 
 2.4. When it connect finish, try to upload your apk to test it yourself.
 
->When upload finish, it will auto install, You can test it manually by using this virtual device
+>When upload finish, it will auto install, You can test it manually by using this real device.
 
 ![12.png](/images/12.png)
 
