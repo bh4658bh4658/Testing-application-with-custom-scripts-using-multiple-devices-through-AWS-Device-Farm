@@ -38,27 +38,27 @@ A good test report is essential to proper analysis of mobile app testing. It is 
 
 ![3.png](/images/3.png)
 
-Click **Next step**.
+1.8. Click **Next step**.
 
-1.8. In the Configure a test, Select **Instrumentation**. 
+1.9. In the Configure a test, Select **Instrumentation**. 
 
 > In this tutorial, we use Espresso and Spoon to do this automate test.
 
-1.9. Upload **app-debug-androidTest.apk**.
+1.10. Upload **app-debug-androidTest.apk**.
 
 ![4.png](/images/4.png)
 
-1.10. When Upload successful, you can also see the detail of apk.
+1.11. When Upload successful, you can also see the detail of apk.
 
 ![5.png](/images/5.png)
 
-Click **Next step**.
+1.12. Click **Next step**.
 
-1.11. At the Select devices, click **Creat a new device pool**.
+1.13. At the Select devices, click **Creat a new device pool**.
 
-1.12. Enter **DemoPool** as Name.
+1.14. Enter **DemoPool** as Name.
 
-1.13. Select some device, for this tutorial we use:
+1.15. Select some device, for this tutorial we use:
 
 * ASUS Nexus 7 - 2nd Gen (WiFi)
 * Motorola Nexus 6
@@ -67,33 +67,33 @@ Click **Next step**.
 * Samsung Galaxy S6 Edge
 * LG Nexus 5
 
-1.14. Click **Save device pool**.
+1.16. Click **Save device pool**.
 
-1.15. Click **Next step** utill Review and start run page, Click **Confirm and start run**.
+1.17. Click **Next step** utill Review and start run page, Click **Confirm and start run**.
 
-1.16. Click your apk run.
+1.18. Click your apk run.
 
 ![6.png](/images/6.png)
 
-1.17. Wait untill it finish.
+1.19. Wait untill it finish.
 
 >It must take some time to finish!
 
-1.18. When it finish, you will see all the devices which you selected have the test report
+1.20. When it finish, you will see all the devices which you selected have the test report
 
 ![7.png](/images/7.png)
 
-1.19. Click any phone to see detail, for this tutorial we choose **LG Nexus5**.
+1.21. Click any phone to see detail, for this tutorial we choose **LG Nexus5**.
 
-1.20. In the LG Nexus5 page, you can see many reports. First is Video, you can see your application progress.
+1.22. In the LG Nexus5 page, you can see many reports. First is Video, you can see your application progress.
 
 ![8.png](/images/8.png)
 
-1.21. Next is Log. You can see every seconds detail, and use the fillter to find the second you want see.
+1.23. Next is Log. You can see every seconds detail, and use the fillter to find the second you want see.
 
 ![9.png](/images/9.png)
 
-1.22. You also can write some script in test apk to auto screenshot.
+1.24. You also can write some script in test apk to auto screenshot.
 
 ![10.png](/images/10.png)
 
