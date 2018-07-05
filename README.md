@@ -38,6 +38,8 @@ A good test report is essential to proper analysis of mobile app testing. It is 
 
 ![3.png](/images/3.png)
 
+Click **Next step**.
+
 1.8. In the Configure a test, Select **Instrumentation**. 
 
 > In this tutorial, we use Espresso and Spoon to do this automate test.
