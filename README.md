@@ -52,6 +52,8 @@ Click **Next step**.
 
 ![5.png](/images/5.png)
 
+Click **Next step**.
+
 1.11. At the Select devices, click **Creat a new device pool**.
 
 1.12. Enter **DemoPool** as Name.
