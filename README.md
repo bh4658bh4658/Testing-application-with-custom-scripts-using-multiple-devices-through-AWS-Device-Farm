@@ -69,7 +69,7 @@ Click **Next step**.
 
 1.14. Click **Save device pool**.
 
-1.15. Click **Next** utill Review and start run page, Click **Confirm and start run**.
+1.15. Click **Next step** utill Review and start run page, Click **Confirm and start run**.
 
 1.16. Click your apk run.
 
