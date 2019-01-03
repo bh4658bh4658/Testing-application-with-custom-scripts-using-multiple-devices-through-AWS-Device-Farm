@@ -18,102 +18,136 @@ A good test report is essential to the proper analysis of mobile app testing. It
 
 ## Lab tutorial
 ### Automated Testing with Device farm
-1.1. Under the service menu, Choose **Device Farm** under Mobile service.
+1. Under the service menu, Choose **Device Farm** under Mobile service.
 
-1.2. Enter **DemoProject** as the name.
+2. Enter **DemoProject** as the name.
 
-![1.png](/images/1.png)
+<p align="center">
+    <img src="images/1.png" width="70%" height="70%">
+</p>
 
-1.3. Click **Create a new run**.
+3. Click **Create a new run**.
 
-![2.png](/images/2.png)
+<p align="center">
+    <img src="images/2.png" width="70%" height="70%">
+</p>
 
-1.4. In Create a new run, Select **Android and IOS**.
+4. In Create a new run, Select **Android and IOS**.
 
-1.5. Click **Upload**.
+5. Click **Upload**.
 
-1.6. Upload the **apk-debug.apk**.
+6. Upload the **apk-debug.apk**.
 
-1.7. When you upload successful, you will see the detail of your apk.
+7. When you upload successful, you will see the detail of your apk.
 
-![3.png](/images/3.png)
+<p align="center">
+    <img src="images/3.png" width="70%" height="70%">
+</p>
 
-1.8. Click **Next step**.
+8. Click **Next step**.
 
-1.9. In the Configure a test, Select **Instrumentation**. 
+9. In the Configure a test, Select **Instrumentation**. 
 
 > In this tutorial, we use Espresso and Spoon to do this automated test.
 
-1.10. Upload **app-debug-androidTest.apk**.
+10. Upload **app-debug-androidTest.apk**.
 
-![4.png](/images/4.png)
+<p align="center">
+    <img src="images/modified-4.png" width="70%" height="70%">
+</p>
 
-1.11. When Upload successful, you can also see the detail of apk.
+11. When Upload successful, you can also see the detail of apk.
 
-![5.png](/images/5.png)
+<p align="center">
+    <img src="images/5.png" width="70%" height="70%">
+</p>
 
-1.12. Click **Next step**.
+12. Click **Next step**.
 
-1.13. At the Select devices, click **Create a new device pool**.
+13. At the Select devices, click **Create a new device pool**.
 
-1.14. Enter **DemoPool** as Name.
+14. Enter **DemoPool** as Name.
 
-1.15. Select some device, for this tutorial we use:
+15. Select some device, for this tutorial we use:
 
-* ASUS Nexus 7 - 2nd Gen (WiFi)
-* Motorola Nexus 6
-* Google Pixel 2 XL
-* HTC Desire 526G+
+* LG G2 (AT&T)
+* LG Nexus 5 
 * Samsung Galaxy S6 Edge
-* LG Nexus 5
+* Samsung Galaxy Tab 4 10.1"(WiFi)
 
-1.16. Click **Save device pool**.
+16. Click **Save device pool**.
 
-1.17. Click **Next step** until Review and start run page, Click **Confirm and start run**.
+17. Click **Next step** until Review and start run page, Click **Confirm and start run**.
 
-1.18. Click your apk run.
+18. Click your apk run.
 
-![6.png](/images/6.png)
+<p align="center">
+    <img src="images/6.png" width="70%" height="70%">
+</p>
 
-1.19. Wait until it finishes.
+19. Wait until it finishes.
 
 >It must take some time to finish!
 
-1.20. When it finishes, you will see all the devices which you selected to have the test report
+20. When it finishes, you will see all the devices which you selected to have the test report
 
-![7.png](/images/7.png)
+<p align="center">
+    <img src="images/7.png" width="70%" height="70%">
+</p>
 
-1.21. Click any phone to see detail, for this tutorial we choose **LG Nexus5**.
+21. Click any phone to see detail, for this tutorial we choose **LG G2 (AT&T)**.
 
-1.22. In the LG Nexus5 page, you can see many reports. First is Video, you can see your application progress.
+22. In the LG G2 (AT&T) page, you can see many reports. First is Video, you can see your application progress.
 
-![8.png](/images/8.png)
+<p align="center">
+    <img src="images/8.png" width="70%" height="70%">
+</p>
 
-1.23. Next is the Log. You can see every seconds detail, and use the filter to find the second you want to see.
+23. Next is the Log. You can see every seconds detail, and use the filter to find the second you want to see.
 
-![9.png](/images/9.png)
+<p align="center">
+    <img src="images/9.png" width="70%" height="70%">
+</p>
+24. You also can write some script in test apk to auto screenshot.
 
-1.24. You also can write some script in test apk to auto screenshot.
-
-![10.png](/images/10.png)
-
+<p align="center">
+    <img src="images/10.png" width="70%" height="70%">
+</p>
 
 ### Remote Access Testing
 
-2.1. Click the DemoProject.
+1. Click the DemoProject.
 
-2.2. Click **Remote access**, and click **Start a new session**.
+2. Click **Remote access**, and click **Start a new session**.
 
-2.3. Type **LG G2(AT&T)** in the filter, and select it, then click **Confirm and start session**.
+3. Type **Samsung Galaxy S5 (AT&T)** in the filter, and select it, then click **Confirm and start session**.
 
-![11.png](/images/11.png)
-
-2.4. When it connects finish, try to upload your apk to test it yourself.
+<p align="center">
+    <img src="images/11.png" width="70%" height="70%">
+</p>
+4. When it connects finish, try to upload your apk to test it yourself.
 
 >When upload finishes, it will auto install, You can test it manually by using this real device.
 
-![12.png](/images/12.png)
+<p align="center">
+    <img src="images/12.png" width="70%" height="70%">
+</p>
 
+## Clean Up
+* Stop the remote device, click the button **Stop session** on the right panel
+<p align="center">
+    <img src="images/13.png" width="70%" height="70%">
+</p>
+
+* Delete the project from AWS Device Farm, click **Project settings**
+<p align="center">
+    <img src="images/14.png" width="70%" height="70%">
+</p>
+
+* Delete the project
+<p align="center">
+    <img src="images/15.png" width="70%" height="70%">
+</p>
 
 ## Conclusion
 
